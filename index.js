@@ -11,17 +11,27 @@ function hasTargetSum(array, target) {
   return false;
 }
 
-
 /* 
   Write the Big O time complexity of your function here
+  O(n^2)
 */
 
 /* 
   Add your pseudocode here
+  loop through array
+  adds the nums in the array with each other
+    if added sum equals target sum
+      return true
+    else
+      return false
 */
 
 /*
   Add written explanation of your solution here
+  loops through each num in the array
+  adds each num in the array with each other by looping through the array again and checking if the added sum is equal to the target sum
+  the function returns true an added sum is equal to the target sum and false otherwise
+
 */
 
 // You can run `node index.js` to view these console logs
